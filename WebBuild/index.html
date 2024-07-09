@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | MoneyTransfrom</title>
+    <title>Unity WebGL Player | moneyTransform</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -22,20 +22,20 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">MoneyTransfrom</div>
+        <div id="unity-build-title">moneyTransform</div>
       </div>
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WebBuild.loader.js";
+      var loaderUrl = buildUrl + "/WebGLBuild.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebBuild.data.unityweb",
-        frameworkUrl: buildUrl + "/WebBuild.framework.js.unityweb",
-        codeUrl: buildUrl + "/WebBuild.wasm.unityweb",
+        dataUrl: buildUrl + "/WebGLBuild.data",
+        frameworkUrl: buildUrl + "/WebGLBuild.framework.js",
+        codeUrl: buildUrl + "/WebGLBuild.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "MoneyTransfrom",
-        productVersion: "0.1",
+        companyName: "미쿠짱계산기",
+        productName: "moneyTransform",
+        productVersion: "1.0",
       };
 
       var container = document.querySelector("#unity-container");
